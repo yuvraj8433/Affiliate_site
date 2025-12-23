@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <script>
+        if (localStorage.getItem("admin") !== "true") {
+            window.location.href = "login.html";
+        }
+    </script>
+
+    <div class="box">
+        <h2>Add Product</h2>
+
+        <input id="name" placeholder="Product Name">
+        <input id="image" placeholder="Image URL">
+        <input id="link" placeholder="Amazon Affiliate Link">
+
+        <button onclick="addProduct()">Add Product</button>
+        <button onclick="logout()">Logout</button>
+
+        <hr>
+        <h3>All Products</h3>
+        <div id="productList"></div>
+
+    </div>
+
+    <script src="js/admin.js"></script>
+</body>
+
+</html>
