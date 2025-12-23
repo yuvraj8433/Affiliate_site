@@ -63,3 +63,18 @@ button{
   width:45%;
   margin:5px;
 }
+
+.admin-btn{
+  padding: 8px 14px;
+  background: #131212;
+  color: #fdfdfd;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 30px;
+  opacity: 0.75;
+}
+
+.admin-btn:hover{
+  opacity: 1;
+}
