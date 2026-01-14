@@ -4,6 +4,7 @@ A simple, beginner-friendly **Amazon Affiliate Website** built using **HTML, CSS
 This project includes a **secure admin panel**, product management (Add / Edit / Delete), and a clean customer-facing UI that redirects users to Amazon via affiliate links.
 
 ---
+https://yuvraj8433.github.io/Affiliate_site/
 
 ## ✨ Features
 
